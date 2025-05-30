@@ -438,7 +438,7 @@ function Contact() {
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" >
-                                    Q1: What are V-Accel's core services?
+                                    Q1: What are Devnio's core services?
 
                                 </button>
 
@@ -453,7 +453,7 @@ function Contact() {
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                                    Q2: What sets  V-Accel apart from other software companies?
+                                    Q2: What sets  Devnio apart from other software companies?
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse">
@@ -669,7 +669,7 @@ function Contact() {
                         </div>
 
                         <div className="col-6 col-md-4 d-flex flex-column pl-3 ps-md-5">
-                            <p className='gold-text-2 fw-bold mb-2'>V-Accel</p>
+                            <p className='gold-text-2 fw-bold mb-2'>Devnio</p>
                             <ul className='list-unstyled mb-0'>
                                 <li><Link to="/about" className='text-white text-decoration-none footerhover'>Our Team</Link></li>
                                 <li><Link to="/services" className='text-white text-decoration-none footerhover'>Services</Link></li>
@@ -706,7 +706,8 @@ function Contact() {
       className="text-decoration-none d-flex flex-wrap justify-content-center align-items-center"
     >
       <span className='gold-text-2 fw-bold me-2'>Visit Us:</span>
-      <span className="text-white">Tidel Park, GF-04, No-4, Rajiv Gandhi Salai, Taramani, Chennai - 600113.</span>
+     <span className="text-white">No. 42, Maple Gardens, Khader Nawaz Khan Road, Nungambakkam, Chennai - 600034.</span>
+
     </a>
   </div>
 </div>
@@ -718,7 +719,7 @@ function Contact() {
                     <div className="container py-2">
                         <div className="row">
                             <div className="col-12 text-center">
-                                <small>Copyright © All rights reserved 2025.V - Accel
+                                <small>Copyright © All rights reserved 2025.Devnivo
                                     <a href="/privacy-policy" className="text-primary ms-1">Privacy Policy</a>
                                 </small>
                             </div>

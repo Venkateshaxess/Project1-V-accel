@@ -86,7 +86,7 @@ export default function Links() {
         </a>
       </div>
       <div className="col-4">
-        {/* <a href={`mailto:info@v-accel.ai`} target='_blank' className="d-flex justify-content-center text-decoration-none text-white"
+        {/* <a href={`mailto:info@Devnio.ai`} target='_blank' className="d-flex justify-content-center text-decoration-none text-white"
           onMouseEnter={() => setcolorfunctoin('white')}
           onMouseLeave={() => setHover('')}>
           <div className="position-relative">
@@ -97,7 +97,7 @@ export default function Links() {
           <p className='mb-0 ms-5 d-none d-lg-block px-2'>Mail</p>
         </a> */}
         <a
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=info@v-accel.ai"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=info@Devnio.ai"
           target="_blank"
           rel="noopener noreferrer"
           className="d-flex justify-content-center text-decoration-none text-white"
@@ -127,7 +127,7 @@ export default function Links() {
               <i className="bi bi-facebook"></i>
             </div>
           </div>
-          <p className='mb-0 ms-5 d-none d-lg-block px-2'>V-Accel</p>
+          <p className='mb-0 ms-5 d-none d-lg-block px-2'>Devnio</p>
         </a>
       </div> */}
       {/* <div className="col-3">
@@ -139,7 +139,7 @@ export default function Links() {
               <i className="bi bi-instagram"></i>
             </div>
           </div>
-          <p className='mb-0 ms-5 d-none d-lg-block px-2'>V-Accel</p>
+          <p className='mb-0 ms-5 d-none d-lg-block px-2'>Devnio</p>
         </a>
       </div> */}
       {/* <div className="col-3">
@@ -151,7 +151,7 @@ export default function Links() {
               <i className="bi bi-linkedin"></i>
             </div>
           </div>
-          <p className='mb-0 ms-5 d-none d-lg-block px-2'>V-Accel-official</p>
+          <p className='mb-0 ms-5 d-none d-lg-block px-2'>Devnio-official</p>
         </a>
       </div> */ }
     </div>

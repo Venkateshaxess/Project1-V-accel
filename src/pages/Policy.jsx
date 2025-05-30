@@ -39,8 +39,8 @@ function Policy() {
         
         <div className='container text-center green-text'>
             <p className="bg-img-2 mb-5 mx-auto" data-aos='fade-up' data-aos-duration='400'>Privacy Policy</p>
-            {/* <h1 className={`secondary-header mb-3 ${isContactPage?'mb-5 pb-5':''}`} data-aos='fade-up' data-aos-duration='600'>V-Accel Digital Marketing: Ignite Your Brand and Dominate the Digital Landscape.</h1> */}
-            <p className='mb-0 secondary-text mb-3' data-aos='fade-up' data-aos-duration='700'>At V-Accel AI Dynamics Private Limited (referred to as V-Accel), we value your privacy. This Privacy Policy describes the types of personal information we collect and how we use, store, and protect it. By using our services, accessing our products, or visiting our website, you agree to the terms outlined in this policy.</p>
+            {/* <h1 className={`secondary-header mb-3 ${isContactPage?'mb-5 pb-5':''}`} data-aos='fade-up' data-aos-duration='600'>Devnio Digital Marketing: Ignite Your Brand and Dominate the Digital Landscape.</h1> */}
+            <p className='mb-0 secondary-text mb-3' data-aos='fade-up' data-aos-duration='700'>At DEVNIVO Private Limited (referred to as Devnio), we value your privacy. This Privacy Policy describes the types of personal information we collect and how we use, store, and protect it. By using our services, accessing our products, or visiting our website, you agree to the terms outlined in this policy.</p>
            
          </div>
             
@@ -49,7 +49,7 @@ function Policy() {
    
 <div className=" bg-green-1 ">
         <div className="container mt-5">
-          <p className="secondary-header text-light pt-4">Welcome to  V-Accel.</p>
+          <p className="secondary-header text-light pt-4">Welcome to  Devnio.</p>
           <div className="row justify-content-center bg-green-1 text-light">
             <div className="col-md-10">
               <h4 className="gold-text-2 mt-3">1. Information We Collect
@@ -113,7 +113,7 @@ function Policy() {
               </p>
               <h4 className="gold-text-2">9. Third-Party Websites</h4>
               <p className="secondary-text">
-              Our website may contain links to third-party websites. This Privacy Policy applies only to V-Accel’s website and services. We are not responsible for the privacy practices or content of external sites, and we encourage you to review their privacy policies.
+              Our website may contain links to third-party websites. This Privacy Policy applies only to Devnio’s website and services. We are not responsible for the privacy practices or content of external sites, and we encourage you to review their privacy policies.
               </p>
               <h4 className="gold-text-2">
               10. Children’s Privacy
@@ -131,7 +131,7 @@ function Policy() {
               <h4 className="gold-text-2">12. Contact Us</h4>
               <p className="secondary-text">
                 If you have any questions about this Privacy Policy, please
-                contact us by email: <Link to={'mailto: info@v-accel.ai'} className="text-decoration-none concolor"> info@v-accel.ai</Link>
+                contact us by email: <Link to={'mailto: info@Devnio.ai'} className="text-decoration-none concolor"> info@Devnio.ai</Link>
               </p>
             </div>
           </div>

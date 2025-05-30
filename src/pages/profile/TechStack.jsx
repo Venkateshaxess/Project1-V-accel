@@ -149,7 +149,7 @@ const TechStack = () => {
     },
     {
       title: 'DevOps & Cloud Engineering',
-      subtitle: 'V-Accel Digital Marketing: Ignite Your Brand and Dominate the Digital Landscape.',
+      subtitle: 'Devnio Digital Marketing: Ignite Your Brand and Dominate the Digital Landscape.',
       image: 'https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=1920',
       categories: [
         {

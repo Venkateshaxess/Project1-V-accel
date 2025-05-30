@@ -176,7 +176,7 @@ function Development() {
                 In today's digital world, your website is the first impression
                 you make on potential customers. It's your virtual storefront,
                 your digital ambassador, and the key to unlocking online
-                success. At  V-Accel, we don't just build websites; we
+                success. At  Devnio, we don't just build websites; we
                 craft online experiences that captivate visitors, fuel
                 engagement, and seamlessly convert them into loyal customers.
               </p>
@@ -246,7 +246,7 @@ function Development() {
         </div>
         <div className="row justify-content-center">
           <div className="col-md-8 secondary-text">
-            That's the V-Accel web development magic. We combine creative vision
+            That's the Devnio web development magic. We combine creative vision
             with technical expertise to design and build websites that are not
             just visually stunning, but strategically crafted to achieve your
             business goals.
@@ -357,7 +357,7 @@ function Development() {
                       data-aos-easing="ease-in-back"
                     >
                       <p className="primary-text">
-                        Ready to create a website that works as hard as you do? Let  V-Accel be your web development partner.
+                        Ready to create a website that works as hard as you do? Let  Devnio be your web development partner.
 
                       </p>
                     </li>
@@ -610,7 +610,7 @@ function Development() {
                               </div>
                               <div className="my-3 border"></div>
                               <div className="seperator"></div>
-                              <p className="description heading5">"My old website was outdated and didn't reflect our brand's personality. V-Accel completely transformed it! The design is modern, engaging, and truly captures our essence. Plus, it's user-friendly and mobile-responsive, which has boosted our online traffic and conversions significantly. Thank you, V-Accel!"{" "}</p>
+                              <p className="description heading5">"My old website was outdated and didn't reflect our brand's personality. Devnio completely transformed it! The design is modern, engaging, and truly captures our essence. Plus, it's user-friendly and mobile-responsive, which has boosted our online traffic and conversions significantly. Thank you, Devnio!"{" "}</p>
                             </div>
                           </div>
                         </div>
@@ -720,7 +720,7 @@ function Development() {
                               </div>
                               <div className="my-3 border"></div>
                               <div className="seperator"></div>
-                              <p className="description heading5">"We needed a website that not only looked good but also generated leads and sales.V-Accel delivered! Their SEO expertise and conversion-focused design have increased our website traffic by 30% and leads by 25%. They even helped us set up automated marketing workflows, streamlining our sales process. We're thrilled with the results!"{" "}</p>
+                              <p className="description heading5">"We needed a website that not only looked good but also generated leads and sales.Devnio delivered! Their SEO expertise and conversion-focused design have increased our website traffic by 30% and leads by 25%. They even helped us set up automated marketing workflows, streamlining our sales process. We're thrilled with the results!"{" "}</p>
                             </div>
                           </div>
                         </div>
@@ -830,7 +830,7 @@ function Development() {
                               </div>
                               <div className="my-3 border"></div>
                               <div className="seperator"></div>
-                              <p className="description heading5">"As a small business owner, I needed a website that was easy to manage and update myself.V-Accel delivered a user-friendly CMS that allows me to make changes and add content effortlessly. They also ensured the website is accessible to everyone, which is important to our values. We're grateful for their expertise and commitment to inclusivity."{" "}</p>
+                              <p className="description heading5">"As a small business owner, I needed a website that was easy to manage and update myself.Devnio delivered a user-friendly CMS that allows me to make changes and add content effortlessly. They also ensured the website is accessible to everyone, which is important to our values. We're grateful for their expertise and commitment to inclusivity."{" "}</p>
                             </div>
                           </div>
                         </div>
@@ -940,7 +940,7 @@ function Development() {
                               </div>
                               <div className="my-3 border"></div>
                               <div className="seperator"></div>
-                              <p className="description heading5">"Working with V-Accel was a breeze. They listened carefully to our needs and preferences, even incorporating personal touches that made the website feel truly unique to our brand. They were also patient and collaborative throughout the process, addressing our questions and concerns promptly. We highly recommend them!"{" "}</p>
+                              <p className="description heading5">"Working with Devnio was a breeze. They listened carefully to our needs and preferences, even incorporating personal touches that made the website feel truly unique to our brand. They were also patient and collaborative throughout the process, addressing our questions and concerns promptly. We highly recommend them!"{" "}</p>
                             </div>
                           </div>
                         </div>

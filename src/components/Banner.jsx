@@ -82,7 +82,7 @@ export default function Banner() {
                 data-aos="fade-up"
                 data-aos-duration="600"
               >
-                At V-Accel, We Tackle Some of the World's Biggest Challenges by
+                At Devnio, We Tackle Some of the World's Biggest Challenges by
                 Building Great Digital Products.
               </p>
             </div>

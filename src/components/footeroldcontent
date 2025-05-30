@@ -67,12 +67,15 @@ function Footer() {
                                 </div>
                             </div>
                             <div className="col-md-6 text-center pt-4">
-                                <p className='gold-text-2 fw-bolder'>Visit Us</p>
-                                <p className='primary-text text-white'>Tidel Park, GF-04,
-                                    No-4, Rajiv Gandhi Salai,
-                                    Taramani,
-                                    Chennai - 600113.</p>
-                            </div>
+    <p className='gold-text-2 fw-bolder'>Visit Us</p>
+    <p className='primary-text text-white'>
+        No. 42, Maple Gardens,<br />
+        Khader Nawaz Khan Road,<br />
+        Nungambakkam,<br />
+        Chennai - 600034.
+    </p>
+</div>
+
 
                         </div>
                     </div>
@@ -164,7 +167,7 @@ function Footer() {
                 </div>
                 <hr />
                 <div className='text-center'>
-                    <p className='mb-0 primary-text text-decoration-none text-white'>Copyright © All rights reserved 2025.V-Accel.</p>
+                    <p className='mb-0 primary-text text-decoration-none text-white'>Copyright © All rights reserved 2025.Devnio.</p>
                 </div>
             </div>
         </div>

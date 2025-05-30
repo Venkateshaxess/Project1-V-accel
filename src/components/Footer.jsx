@@ -274,7 +274,7 @@ function Footer({ displayContact }) {
                             <div className="row">
                                 <div className="col-md-10">
                                     <p className='text-start mx-2 fs-5 bg-img-1' data-aos='zoom-out'>Contact us</p>
-                                    <p data-aos='zoom-out'>We’re excited to hear about your project. Schedule a call today and Connect with our experts. At V-Accel, We respect your privacy and Never share your details with anyone. Let's build together.</p>
+                                    <p data-aos='zoom-out'>We’re excited to hear about your project. Schedule a call today and Connect with our experts. At Devnio, We respect your privacy and Never share your details with anyone. Let's build together.</p>
                                 </div>
                                 <div className="col-md-2 position-absolute footerbg">
                                     <img src={frompng} alt="" />
@@ -318,7 +318,7 @@ function Footer({ displayContact }) {
                                          <p>Phone: <span className='text-decoration-none concolor' onClick={() => handlePhoneCall('+919042577261')}> +91 9042577261</span></p> 
                                         <div className='d-none d-lg-block'>Phone: <span className='concolor text-decoration-none'>+91 7603846245</span></div>
                                          <div className='d-lg-none'>Phone:<Link to="tel:7845721438" className='concolor text-decoration-none'> +91 90425 77261</Link></div> 
-                                        <p className='mt-3'>Email : <a className='text-decoration-none concolor' href="mailto: info@v-accel.ai">info@v-accel.ai</a></p>
+                                        <p className='mt-3'>Email : <a className='text-decoration-none concolor' href="mailto: info@Devnio.ai">info@Devnio.ai</a></p>
                                     </div>
 
                                     <div className="col-md-4" data-aos='zoom-out'>
@@ -523,7 +523,7 @@ function Footer({ displayContact }) {
                 <div className="container">
                     <div className="row text-center text-capitalize mt-0 py-md-5 my-md-5 g-4 g-md-0">
                         <div className="col-5 col-md-6" data-aos='fade-up' data-aos-duration='700'>
-                            <p className='gold-text-2 fw-bolder'>V-Accel</p>    
+                            <p className='gold-text-2 fw-bolder'>Devnio</p>    
                             <div className='d-flex justify-content-center'>
                                 <ul className='list-unstyled'>
                                     <button onClick={handleRoute}>home</button>
@@ -574,7 +574,7 @@ function Footer({ displayContact }) {
       </div>
       
       <div className="col-6 col-md-4 d-flex flex-column pl-3 ps-md-5">
-        <p className='gold-text-2 fw-bold mb-2'>V-Accel</p>
+        <p className='gold-text-2 fw-bold mb-2'>Devnio</p>
         <ul className='list-unstyled mb-0'>
           <li><Link to="/about" className='text-white text-decoration-none footerhover'>Our Team</Link></li>
           <li><Link to="/services" className='text-white text-decoration-none footerhover'>Services</Link></li>
@@ -611,7 +611,8 @@ function Footer({ displayContact }) {
       className="text-decoration-none d-flex flex-wrap justify-content-center align-items-center"
     >
       <span className='gold-text-2 fw-bold me-2'>Visit Us:</span>
-      <span className="text-white">Tidel Park, GF-04, No-4, Rajiv Gandhi Salai, Taramani, Chennai - 600113.</span>
+     <span className="text-white">No. 42, Maple Gardens, Khader Nawaz Khan Road, Nungambakkam, Chennai - 600034.</span>
+
     </a>
   </div>
 </div>
@@ -623,7 +624,7 @@ function Footer({ displayContact }) {
     <div className="container py-2">
       <div className="row">
         <div className="col-12 text-center">
-          <small>Copyright © All rights reserved 2025.V - Accel 
+          <small>Copyright © All rights reserved 2025. Devnivo
             <a href="/privacy-policy" className="text-primary ms-1">Privacy Policy</a>
           </small>
         </div>

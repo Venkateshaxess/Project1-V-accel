@@ -230,7 +230,7 @@ function Services() {
                     to={"/"}
                     className="display-6 fw-medium text-decoration-none text-white d-none d-md-block"
                   >
-                    V-Accel
+                    Devnio
                   </Link> */}
                   {/* <img src={vlogo} alt="logo" className="img-fluid logo" /> */}
                   {/* <button
@@ -247,7 +247,7 @@ function Services() {
                 </div>
                 <div className="pattern d-none"></div>
                 <h1 className='display-3 col-md-10 fw-bold text-white' data-aos="fade-up" data-aos-duration='700'>
-                                    The <span className='gold-text-2'><Link to={"/"} className=" gold-text-2 text-decoration-none">V-Accel</Link> </span> Services
+                                    The <span className='gold-text-2'><Link to={"/"} className=" gold-text-2 text-decoration-none">Devnio</Link> </span> Services
                                 </h1>
                 <div
                   data-aos="fade-up"

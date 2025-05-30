@@ -56,7 +56,7 @@ function About() {
     
     {/* Left side - Heading */}
     <div className="col-md-6 d-flex flex-column align-items-center justify-content-center text-center" data-aos="fade-right" data-aos-duration="600">
-  <h1 className="fw-bold mb-3 text-white" style={{ fontSize: '80px' }}>Why V-Accel?</h1>
+  <h1 className="fw-bold mb-3 text-white" style={{ fontSize: '80px' }}>Why Devnio?</h1>
   
   <div style={{ maxWidth: '500px' }}>
     <p style={{ color: 'white', fontSize: '30px', marginBottom: '5px' }}>
@@ -84,11 +84,11 @@ function About() {
 
 
 
-      <div className="container">
+      {/* <div className="container">
         <div className=" pt-3 row justify-content-end">
           <div className="col-lg-8 col-md-2 order-2 order-lg-1">
             <div className="p-3 mx-2" data-aos="fade-right" data-aos-duration="1000">
-              <h1 className="mt-5 text-center bg-img-1 mx-auto">About the Founder & CEO</h1>
+              <h1 className="mt-5 text-center bg-img-1 mx-auto">About the Founder & CEO</h1> */}
               
                {/* <div class="rounded-img d-lg-none col-md-6">
                 <img
@@ -100,13 +100,13 @@ function About() {
               </div> 
               <p className="mt-3 ceo-content">
               Mr. Venkatesan J — Full-Stack Engineer | AI Specialist | Visionary Technologist
-With over 8+ years of hands-on experience in building high-performance applications and intelligent systems, Venkatesan leads V-Accel AI Dynamics with a unique blend of deep technical expertise and strategic vision.
+With over 8+ years of hands-on experience in building high-performance applications and intelligent systems, Venkatesan leads DEVNIVO with a unique blend of deep technical expertise and strategic vision.
 Holding a B.E. in Mechanical Engineering, a PGDM in Operations & Supply Chain, a PG Diploma in AI/ML, and an M.E. in Artificial Intelligence & Data Science, he bridges the gap between engineering, enterprise, and emerging technologies.
 As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has architected, tested, and scaled SaaS platforms, microservices ecosystems, and AI-powered products across industries.
 
               </p>
             </div> */}
-            <div className="row align-items-center">
+            {/* <div className="row align-items-center">
   <div className="col-12 col-md-6 d-lg-none text-center mb-3">
     <img
       src={md}
@@ -114,19 +114,19 @@ As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has 
       className="img-fluid rounded"
       style={{ maxWidth: '100%', height: 'auto' }}
     />
-  </div>
+  </div> */}
 
-  <div className="col-12">
+  {/* <div className="col-12">
     <p className="mt-3 ceo-content text-justify" style={{ lineHeight: '1.6' }}>
       <strong>Mr. Venkatesan J — Full-Stack Engineer | AI Specialist | Visionary Technologist</strong><br /><br />
-      With over 8+ years of hands-on experience in building high-performance applications and intelligent systems, Venkatesan leads V-Accel AI Dynamics with a unique blend of deep technical expertise and strategic vision.<br /><br />
+      With over 8+ years of hands-on experience in building high-performance applications and intelligent systems, Venkatesan leads DEVNIVO with a unique blend of deep technical expertise and strategic vision.<br /><br />
       Holding a B.E. in Mechanical Engineering, a PGDM in Operations & Supply Chain, a PG Diploma in AI/ML, and an M.E. in Artificial Intelligence & Data Science, he bridges the gap between engineering, enterprise, and emerging technologies.<br /><br />
       As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has architected, tested, and scaled SaaS platforms, microservices ecosystems, and AI-powered products across industries.
     </p>
   </div>
 </div>
-</div>
-          </div>
+</div> */}
+          {/* </div>
           <div className="col-lg-4 order-1 order-lg-2 d-none d-lg-block">
             <div className="aboutusimg position-relative" data-aos="fade-left" data-aos-duration="1000">
               <div class="blur-img aboutMdimg d-none d-lg-block">
@@ -147,7 +147,7 @@ As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has 
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className='aboutme'>
            <div className='container mt-5'>
                 <div >
@@ -196,7 +196,7 @@ As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has 
         <div>
           <h5 className="secondary-header text-center py-5" data-aos="fade-up" data-aos-duration="1000">
             Let's talk about your digital aspirations. Whether you're a budding
-            startup or a seasoned enterprise, V-Accel has the tools and vision to
+            startup or a seasoned enterprise, Devnio has the tools and vision to
             help you soar.
           </h5>
         </div>
@@ -244,7 +244,7 @@ As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has 
         <div className="container" data-aos="fade-up" data-aos-duration="1000">
           <h3 className="secondary-header mx-auto text-center text-white mb-2">
             <q>
-            At V-Accel, he’s not just a founder — he's the lead problem-solver, code architect, and mentor behind every successful delivery.
+            At Devnio, he’s not just a founder — he's the lead problem-solver, code architect, and mentor behind every successful delivery.
             </q>
           </h3>
           <p className="col-md-8 fs-5 mx-auto text-center text-white mt-4">
