@@ -531,11 +531,366 @@
 //   );
 // }
 
+// // export default Navbar;
+// import React, { useState, useEffect, useContext } from 'react';
+// import { NavLink, Link, useNavigate, useLocation } from 'react-router-dom';
+// import logo from '../assets/image.png';
+// import vlogo from '../assets/images/Group 14.svg';
+// import '../assets/css/hamburgers/hamburgers.scss';
+// import { userContext } from '../store/Store';
+
+// function Navbar() {
+//   const [fixed, setFixed] = useState('');
+//   const [nav, setNav] = useState(false);
+//   const [value, setValue] = useContext(userContext);
+//   const navigate = useNavigate();
+//   const location = useLocation();
+
+//   const handleOutsideClick = (event) => {
+//     const navbar = document.getElementById('navbarSupportedContent');
+//     if (navbar && !navbar.contains(event.target) && navbar.classList.contains('show')) {
+//       navbar.classList.remove('show');
+//       setNav(false);
+//     }
+//   };
+
+//   const handleScroll = () => {
+//     if (window.scrollY > 100 && window.scrollY < 800) {
+//       setFixed('fixed-1');
+//     } else if (window.scrollY >= 800) {
+//       setFixed('fixed-1 fixed-2');
+//     } else {
+//       setFixed('');
+//     }
+//   };
+
+//   useEffect(() => {
+//     window.addEventListener('scroll', handleScroll);
+//     document.addEventListener('click', handleOutsideClick);
+//     return () => {
+//       window.removeEventListener('scroll', handleScroll);
+//       document.removeEventListener('click', handleOutsideClick);
+//     };
+//   }, []);
+
+//   useEffect(() => {
+//     // Close nav menu on route change
+//     setNav(false);
+//   }, [location]);
+
+//   return (
+//     <div>
+//       {/* Upper Bar with Large Logo */}
+//       <div
+//         className="d-none d-lg-flex justify-content-between align-items-center border-bottom px-3"
+//         style={{ height: '140px' }}  // increased height for bigger logo and text
+//       >
+//         <div className="d-flex align-items-center">
+//           <Link to="/" className="navbar-brand m-0 p-0">
+//             <img
+//               src={logo}
+//               alt="Logo"
+//               style={{
+//                 height: '150px',  // bigger logo height
+//                 objectFit: 'contain',
+//               }}
+//             />
+//           </Link>
+//         </div>
+
+//         <div className="text-center">
+//           <p
+//             style={{
+//               fontSize: '70px',  // bigger font size
+//               fontWeight: '900',
+//               color: '#1f4051',
+//               margin: 0,
+//               letterSpacing: '2px',
+//             }}
+//           >
+//             Devnivo
+//           </p>
+//         </div>
+
+//         <div style={{ width: '90px' }} /> {/* Spacer */}
+//       </div>
+
+//       {/* Main Navigation */}
+//       <nav className={`navbar navbar-expand-lg bg-body-tertiary px-2 ${fixed}`} style={{ minHeight: '45px' }}>
+//         <div className="container-fluid px-0">
+//           {/* Mobile Header */}
+//           <div className="d-lg-none d-flex justify-content-between align-items-center w-100" style={{ height: '55px' }}>
+//             <Link to="/" className="navbar-brand m-0 p-0">
+//               {/* <img src={logo} alt="Mobile Logo" style={{ height: '40px' }} /> mobile logo size */}
+//               <img src={logo} alt="Mobile Logo" style={{ height: '70px' }} />
+
+//             </Link>
+//             <h4 className="text-size-lg fw-bold" onClick={() => navigate('/')}>
+//               Devnivo
+//             </h4>
+//             <button
+//               className={`navbar-toggler border-0 hamburger hamburger--spring-r ${nav ? 'is-active' : ''}`}
+//               type="button"
+//               data-bs-toggle="collapse"
+//               data-bs-target="#navbarSupportedContent"
+//               aria-controls="navbarSupportedContent"
+//               aria-expanded={nav ? 'true' : 'false'}
+//               aria-label="Toggle navigation"
+//               onClick={() => setNav(!nav)}
+//             >
+//               <span className="hamburger-box">
+//                 <span className="hamburger-inner"></span>
+//               </span>
+//             </button>
+//           </div>
+
+//           {/* Navigation Links */}
+//           <div className={`collapse navbar-collapse ${nav ? 'show' : ''}`} id="navbarSupportedContent">
+//             <ul className="navbar-nav mx-auto d-flex align-items-center mb-0" style={{ gap: '14px' }}>
+//               <li className="nav-item">
+//                 <NavLink to="/" className="nav-link navhover px-2">
+//                   Home
+//                 </NavLink>
+//               </li>
+//               <li className="nav-item">
+//                 <NavLink to="/about" className="nav-link navhover px-2">
+//                   Team
+//                 </NavLink>
+//               </li>
+//               <li className="nav-item position-relative">
+//                 <NavLink to="/services" className="nav-link navhover px-2" onClick={() => setValue(true)}>
+//                   Services
+//                 </NavLink>
+//                 <div className="drop">
+//                   <NavLink to="/services" className="nav-link navhover">
+//                     All Services
+//                   </NavLink>
+//                   <NavLink to="/development" className="nav-link navhover">
+//                     Custom Software Development
+//                   </NavLink>
+//                   <NavLink to="/testing" className="nav-link navhover">
+//                     SaaS Product Development
+//                   </NavLink>
+//                   <NavLink to="/webdevelopment" className="nav-link navhover">
+//                     AI & ML Engineering
+//                   </NavLink>
+//                   <NavLink to="/digitalmarketing" className="nav-link navhover">
+//                     DevOps & Cloud Engineering
+//                   </NavLink>
+//                   <NavLink to="/micro-services" className="nav-link navhover">
+//                     Microservices Architecture
+//                   </NavLink>
+//                 </div>
+//               </li>
+//               <li className="nav-item">
+//                 <NavLink to="/ourworks" className="nav-link navhover px-2">
+//                   Our works
+//                 </NavLink>
+//               </li>
+//               <li className="nav-item">
+//                 <NavLink to="/contact" className="nav-link navhover px-2">
+//                   Contact
+//                 </NavLink>
+//               </li>
+//             </ul>
+//           </div>
+//         </div>
+//       </nav>
+//     </div>
+//   );
+// }
+
+// // export default Navbar;
+// import React, { useState, useEffect, useContext } from 'react';
+// import { NavLink, Link, useNavigate, useLocation } from 'react-router-dom';
+// import logo from '../assets/image.png';
+// import vlogo from '../assets/images/Group 14.svg';
+// import '../assets/css/hamburgers/hamburgers.scss';
+// import { userContext } from '../store/Store';
+
+// function Navbar() {
+//   const [fixed, setFixed] = useState('');
+//   const [nav, setNav] = useState(false);
+//   const [value, setValue] = useContext(userContext);
+//   const navigate = useNavigate();
+//   const location = useLocation();
+
+//   const handleOutsideClick = (event) => {
+//     const navbar = document.getElementById('navbarSupportedContent');
+//     if (navbar && !navbar.contains(event.target) && navbar.classList.contains('show')) {
+//       navbar.classList.remove('show');
+//       setNav(false);
+//     }
+//   };
+
+//   const handleScroll = () => {
+//     if (window.scrollY > 100 && window.scrollY < 800) {
+//       setFixed('fixed-1');
+//     } else if (window.scrollY >= 800) {
+//       setFixed('fixed-1 fixed-2');
+//     } else {
+//       setFixed('');
+//     }
+//   };
+
+//   useEffect(() => {
+//     window.addEventListener('scroll', handleScroll);
+//     document.addEventListener('click', handleOutsideClick);
+//     return () => {
+//       window.removeEventListener('scroll', handleScroll);
+//       document.removeEventListener('click', handleOutsideClick);
+//     };
+//   }, []);
+
+//   useEffect(() => {
+//     // Close nav menu on route change
+//     setNav(false);
+//   }, [location]);
+
+//   return (
+//     <div>
+//       {/* Upper Bar with Large Logo */}
+//       <div
+//         className="d-none d-lg-flex justify-content-between align-items-center border-bottom px-3"
+//         style={{ height: '140px' }}  // increased height for bigger logo and text
+//       >
+//         <div className="d-flex align-items-center">
+//           <Link to="/" className="navbar-brand m-0 p-0">
+//             <img
+//               src={logo}
+//               alt="Logo"
+//               style={{
+//                 height: '150px',  // bigger logo height
+//                 objectFit: 'contain',
+//               }}
+//             />
+//           </Link>
+//         </div>
+
+//         <div className="text-center">
+//           <p
+//             style={{
+//               fontSize: '70px',  // bigger font size
+//               fontWeight: '900',
+//               color: '#1f4051',
+//               margin: 0,
+//               letterSpacing: '2px',
+//             }}
+//           >
+//             Devnivo
+//           </p>
+//         </div>
+
+//         <div style={{ width: '90px' }} /> {/* Spacer */}
+//       </div>
+
+//       {/* Main Navigation */}
+//       <nav
+//         className={`navbar navbar-expand-lg bg-body-tertiary px-2 ${fixed}`}
+//         style={{
+//           minHeight: '45px',
+//           zIndex: 1000,             // Ensure navbar stays on top
+//           position: 'relative'      // Required for z-index to work
+//         }}
+//       >
+//         <div className="container-fluid px-0">
+//           {/* Mobile Header */}
+//           <div
+//             className="d-lg-none d-flex justify-content-between align-items-center w-100"
+//             style={{ height: '55px' }}
+//           >
+//             <Link to="/" className="navbar-brand m-0 p-0">
+//               <img src={logo} alt="Mobile Logo" style={{ height: '70px' }} />
+//             </Link>
+//             <h4 className="text-size-lg fw-bold" onClick={() => navigate('/')}>
+//               Devnivo
+//             </h4>
+//             <button
+//               className={`navbar-toggler border-0 hamburger hamburger--spring-r ${nav ? 'is-active' : ''}`}
+//               type="button"
+//               data-bs-toggle="collapse"
+//               data-bs-target="#navbarSupportedContent"
+//               aria-controls="navbarSupportedContent"
+//               aria-expanded={nav ? 'true' : 'false'}
+//               aria-label="Toggle navigation"
+//               onClick={() => setNav(!nav)}
+//             >
+//               <span className="hamburger-box">
+//                 <span className="hamburger-inner"></span>
+//               </span>
+//             </button>
+//           </div>
+
+//           {/* Navigation Links */}
+//           <div
+//             className={`collapse navbar-collapse ${nav ? 'show' : ''}`}
+//             id="navbarSupportedContent"
+//             style={{
+//               position: 'relative',  // Ensure no overlap with content
+//               zIndex: 1
+//             }}
+//           >
+//             <ul
+//               className="navbar-nav mx-auto d-flex align-items-center mb-0"
+//               style={{ gap: '14px' }}
+//             >
+//               <li className="nav-item">
+//                 <NavLink to="/" className="nav-link navhover px-2">
+//                   Home
+//                 </NavLink>
+//               </li>
+//               <li className="nav-item">
+//                 <NavLink to="/about" className="nav-link navhover px-2">
+//                   Team
+//                 </NavLink>
+//               </li>
+//               <li className="nav-item position-relative">
+//                 <NavLink to="/services" className="nav-link navhover px-2" onClick={() => setValue(true)}>
+//                   Services
+//                 </NavLink>
+//                 <div className="drop">
+//                   <NavLink to="/services" className="nav-link navhover">
+//                     All Services
+//                   </NavLink>
+//                   <NavLink to="/development" className="nav-link navhover">
+//                     Custom Software Development
+//                   </NavLink>
+//                   <NavLink to="/testing" className="nav-link navhover">
+//                     SaaS Product Development
+//                   </NavLink>
+//                   <NavLink to="/webdevelopment" className="nav-link navhover">
+//                     AI & ML Engineering
+//                   </NavLink>
+//                   <NavLink to="/digitalmarketing" className="nav-link navhover">
+//                     DevOps & Cloud Engineering
+//                   </NavLink>
+//                   <NavLink to="/micro-services" className="nav-link navhover">
+//                     Microservices Architecture
+//                   </NavLink>
+//                 </div>
+//               </li>
+//               <li className="nav-item">
+//                 <NavLink to="/ourworks" className="nav-link navhover px-2">
+//                   Our works
+//                 </NavLink>
+//               </li>
+//               <li className="nav-item">
+//                 <NavLink to="/contact" className="nav-link navhover px-2">
+//                   Contact
+//                 </NavLink>
+//               </li>
+//             </ul>
+//           </div>
+//         </div>
+//       </nav>
+//     </div>
+//   );
+// }
+
 // export default Navbar;
 import React, { useState, useEffect, useContext } from 'react';
 import { NavLink, Link, useNavigate, useLocation } from 'react-router-dom';
 import logo from '../assets/image.png';
-import vlogo from '../assets/images/Group 14.svg';
 import '../assets/css/hamburgers/hamburgers.scss';
 import { userContext } from '../store/Store';
 
@@ -574,7 +929,6 @@ function Navbar() {
   }, []);
 
   useEffect(() => {
-    // Close nav menu on route change
     setNav(false);
   }, [location]);
 
@@ -583,7 +937,7 @@ function Navbar() {
       {/* Upper Bar with Large Logo */}
       <div
         className="d-none d-lg-flex justify-content-between align-items-center border-bottom px-3"
-        style={{ height: '140px' }}  // increased height for bigger logo and text
+        style={{ height: '140px' }}
       >
         <div className="d-flex align-items-center">
           <Link to="/" className="navbar-brand m-0 p-0">
@@ -591,7 +945,7 @@ function Navbar() {
               src={logo}
               alt="Logo"
               style={{
-                height: '150px',  // bigger logo height
+                height: '150px',
                 objectFit: 'contain',
               }}
             />
@@ -601,7 +955,7 @@ function Navbar() {
         <div className="text-center">
           <p
             style={{
-              fontSize: '70px',  // bigger font size
+              fontSize: '70px',
               fontWeight: '900',
               color: '#1f4051',
               margin: 0,
@@ -616,16 +970,26 @@ function Navbar() {
       </div>
 
       {/* Main Navigation */}
-      <nav className={`navbar navbar-expand-lg bg-body-tertiary px-2 ${fixed}`} style={{ minHeight: '45px' }}>
+      <nav
+        className={`navbar navbar-expand-lg bg-body-tertiary px-2 ${fixed}`}
+        style={{
+          minHeight: '45px',
+          zIndex: 1000,
+          position: 'relative',
+        }}
+      >
         <div className="container-fluid px-0">
           {/* Mobile Header */}
-          <div className="d-lg-none d-flex justify-content-between align-items-center w-100" style={{ height: '55px' }}>
+          <div
+            className="d-lg-none d-flex justify-content-between align-items-center w-100"
+            style={{ height: '55px' }}
+          >
             <Link to="/" className="navbar-brand m-0 p-0">
-              <img src={vlogo} alt="Mobile Logo" style={{ height: '40px' }} /> {/* mobile logo size */}
+              <img src={logo} alt="Mobile Logo" style={{ height: '70px' }} />
             </Link>
-            <p className="m-0 fw-bold" onClick={() => navigate('/')}>
+            <h4 className="text-size-lg fw-bold" onClick={() => navigate('/')}>
               Devnivo
-            </p>
+            </h4>
             <button
               className={`navbar-toggler border-0 hamburger hamburger--spring-r ${nav ? 'is-active' : ''}`}
               type="button"
@@ -643,8 +1007,18 @@ function Navbar() {
           </div>
 
           {/* Navigation Links */}
-          <div className={`collapse navbar-collapse ${nav ? 'show' : ''}`} id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto d-flex align-items-center mb-0" style={{ gap: '14px' }}>
+          <div
+            className={`collapse navbar-collapse ${nav ? 'show' : ''}`}
+            id="navbarSupportedContent"
+            style={{
+              position: 'relative',
+              zIndex: 1,
+            }}
+          >
+            <ul
+              className="navbar-nav mx-auto d-flex align-items-center mb-0"
+              style={{ gap: '14px' }}
+            >
               <li className="nav-item">
                 <NavLink to="/" className="nav-link navhover px-2">
                   Home
@@ -656,7 +1030,11 @@ function Navbar() {
                 </NavLink>
               </li>
               <li className="nav-item position-relative">
-                <NavLink to="/services" className="nav-link navhover px-2" onClick={() => setValue(true)}>
+                <NavLink
+                  to="/services"
+                  className="nav-link navhover px-2"
+                  onClick={() => setValue(true)}
+                >
                   Services
                 </NavLink>
                 <div className="drop">
