@@ -39,7 +39,7 @@ export default function Home() {
                                 <div className="hero-banner-content">
                                     {/* <h1 className='mb-5' data-aos='fade-up' data-aos-duration='500'>Forget fragmented services. Axess builds your digital ecosystem - seamless, powerful, designed to win.</h1> */}
                                     <h1 className='mb-5' data-aos='fade-up' data-aos-duration='500'>Transforming Ideas into Digital Reality</h1>
-                                    <p style={{fontSize:'30px'}} className='primary-text mb-5' data-aos='fade-up' data-aos-duration='600'>Building the Future — One SaaS, One AI, One Innovation at a Time</p>
+                                    <p style={{fontSize:'30px'}} className='primary-text mb-5' data-aos='fade-up' data-aos-duration='600'>Building the Future</p>
                                     {/* <button className='gold-btn mb-5 mb-lg-0 mx-auto mx-lg-0' data-aos='fade-right' data-aos-duration='800'><span className='d-block'>Connect with us</span> <i className="bi bi-arrow-right"></i></button> */}
                                     <Link to={"/contact"} className='text-decoration-none'> <button className='gold-btn mb-5 mb-lg-0 mx-auto mx-lg-0' data-aos='zoom-out' data-aos-duration='600'><span className='d-block'>Connect with us</span> <i className="bi bi-arrow-right"></i></button></Link>
                                 </div>
@@ -55,8 +55,8 @@ export default function Home() {
             <Award/>
             <Solutions/>
             <Techsection/>
-            <Industries/>
-            {/* <Carousel head={"Our Works"}/> */}
+            {/* <Industries/> */}
+            {/* <Carousel head={"Industries"}/> */}
             <Footer/>
         
         </section>

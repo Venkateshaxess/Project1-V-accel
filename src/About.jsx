@@ -23,7 +23,7 @@ function About() {
 <div className='hero-banner hero-2 mt-5 ' data-aos='fade'>
                  <div className='container text-center green-text'>
                      <p className="bg-img-2 mb-3 mx-auto" data-aos='fade-up' data-aos-duration='400'>Team</p>
-                     <h1 className={`secondary-header mb-5`} data-aos='fade-up' data-aos-duration='600'>Saas Builders | AI Innovators | Cloud and DevOps Experts</h1>
+                     <h1 className={`secondary-header mb-5`} data-aos='fade-up' data-aos-duration='600'>Software Development | Cloud and DevOps Experts | MicroServices Architecture</h1>
                      {/* <p className='mb-0 secondary-text mb-3' data-aos='fade-up' data-aos-duration='700'>{h3}</p> */}
                          {/* <Link to={"/contact"} className='text-decoration-none'>
                              <button className='gold-btn green-btn m-5 mx-auto' data-aos='zoom-out' data-aos-duration='600'>s
@@ -215,26 +215,30 @@ As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has 
             <div className="aboutpoints mt-3 pt-3">
               <ul>
                 <li>
-                  <strong> Custom Software Development & SaaS Engineering:</strong> We craft bespoke
+                  <strong> Software Development :</strong> We craft bespoke
                   applications that empower your business processes, enhance
                   efficiency, and streamline operations.
                 </li>
-                <li className="mt-4 pt-2">
+                {/* <li className="mt-4 pt-2">
                   <strong>AI/ML Solutions (LLMs, Automation, Vector DBs):
                   </strong> We leave no stone unturned,
                   ensuring your software is bug-free, reliable, and delivers a
                   seamless user experience.
-                </li>
-                <li className="mt-4 pt-2">
+                </li> */}
+                {/* <li className="mt-4 pt-2">
                   <strong>Software Testing (Manual + Automation + API):</strong> We create stunning,
                   user-friendly websites that are the perfect digital canvas for
                   your brand story.
-                </li>
+                </li> */}
                 <li className="mt-4 pt-2">
                   <strong>DevOps, CI/CD, Cloud-native Deployment:</strong> We orchestrate data-driven
                   campaigns that ignite engagement, drive conversions, and build
                   lasting customer relationships.
                 </li>
+                <li className="mt-4 pt-2">
+  <strong>Microservices Architecture:</strong> We design and implement scalable microservices that ensure flexibility, reliability, and seamless integration across your applications, enabling faster updates and smoother deployments.
+</li>
+                  
               </ul>
             </div>
           </div>

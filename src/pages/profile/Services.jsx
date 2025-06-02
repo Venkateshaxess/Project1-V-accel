@@ -29,7 +29,7 @@ const Services = () => {
   const services = [
     {
       icon: <Code className="h-10 w-10 text-primary-500" />,
-      title: 'Custom Software Development',
+      title: 'Software Development',
       description: 'Rapid MVP Prototyping, Web and Mobile Apps, API Integrations & Microservices, Cloud-native Development',
       image: 'https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600'
     },

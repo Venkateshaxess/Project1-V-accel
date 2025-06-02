@@ -197,7 +197,7 @@
 // //                 </li>
 // //                 <li className="nav-item">
 // //                   <NavLink to={"/ourworks"} activeclassname="active" className="nav-link navhover" >
-// //                     Our works
+// //                     Industries
 // //                   </NavLink>
 // //                 </li>
 
@@ -381,7 +381,7 @@
 //                 </div>
 //               </li>
 //               <li className="nav-item">
-//                 <NavLink to="/ourworks" className="nav-link navhover">Our works</NavLink>
+//                 <NavLink to="/ourworks" className="nav-link navhover">Industries</NavLink>
 //               </li>
 //               <li className="nav-item">
 //                 <NavLink to="/contact" className="nav-link navhover">Contact</NavLink>
@@ -518,7 +518,7 @@
 //                 </div>
 //               </li>
 //               <li className="nav-item">
-//                 <NavLink to="/ourworks" className="nav-link navhover px-2">Our works</NavLink>
+//                 <NavLink to="/ourworks" className="nav-link navhover px-2">Industries</NavLink>
 //               </li>
 //               <li className="nav-item">
 //                 <NavLink to="/contact" className="nav-link navhover px-2">Contact</NavLink>
@@ -684,7 +684,7 @@
 //               </li>
 //               <li className="nav-item">
 //                 <NavLink to="/ourworks" className="nav-link navhover px-2">
-//                   Our works
+//                   Industries
 //                 </NavLink>
 //               </li>
 //               <li className="nav-item">
@@ -871,7 +871,7 @@
 //               </li>
 //               <li className="nav-item">
 //                 <NavLink to="/ourworks" className="nav-link navhover px-2">
-//                   Our works
+//                   Industries
 //                 </NavLink>
 //               </li>
 //               <li className="nav-item">
@@ -1042,14 +1042,14 @@ function Navbar() {
                     All Services
                   </NavLink>
                   <NavLink to="/development" className="nav-link navhover">
-                    Custom Software Development
+                    Software Development
                   </NavLink>
-                  <NavLink to="/testing" className="nav-link navhover">
+                  {/* <NavLink to="/testing" className="nav-link navhover">
                     SaaS Product Development
-                  </NavLink>
-                  <NavLink to="/webdevelopment" className="nav-link navhover">
+                  </NavLink> */}
+                  {/* <NavLink to="/webdevelopment" className="nav-link navhover">
                     AI & ML Engineering
-                  </NavLink>
+                  </NavLink> */}
                   <NavLink to="/digitalmarketing" className="nav-link navhover">
                     DevOps & Cloud Engineering
                   </NavLink>
@@ -1060,7 +1060,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <NavLink to="/ourworks" className="nav-link navhover px-2">
-                  Our works
+                  Industries
                 </NavLink>
               </li>
               <li className="nav-item">

@@ -25,7 +25,7 @@ function Ai() {
     <Banner
       h1="AI Development"
       h2="Revolutionize Your Operations: Transform with Software Tailored to Your Needs."
-      h3="Utilize the power of technology with our custom software development services.
+      h3="Utilize the power of technology with our software development services.
       "
     />
     <section className="container ">

@@ -305,37 +305,37 @@ function Contact() {
                             <div className="row">
                                 <div className="col-md-4 checkbox-label">
                                     <div className="checkbox-animated">
-                                        <input id="checkbox_animated_1" onChange={handleChange} value={"Custom Software Development"} type="radio" name='serviceOption' />
+                                        <input id="checkbox_animated_1" onChange={handleChange} value={"Software Development"} type="radio" name='serviceOption' />
                                         <label htmlFor="checkbox_animated_1">
                                             <span className="check"></span>
                                             <span className="box"></span>
                                             {/* <p className='secondary-text'>Software Development</p> */}
-                                            <p className='secondary-text'>Custom Software Development</p>
+                                            <p className='secondary-text'>Software Development</p>
                                         </label>
                                     </div>
                                 </div>
-                                <div className="col-md-4 checkbox-label">
+                                {/* <div className="col-md-4 checkbox-label">
                                     <div className="checkbox-animated">
                                         <input id="checkbox_animated_2" onChange={handleChange} value={"SaaS Product Development"} type="radio" name='serviceOption' />
                                         <label htmlFor="checkbox_animated_2">
                                             <span className="check"></span>
                                             <span className="box"></span>
-                                            {/* <p className='secondary-text'>Software Testing</p> */}
+                                            <p className='secondary-text'>Software Testing</p>
                                             <p className='secondary-text'>SaaS Product Development</p>
                                         </label>
                                     </div>
-                                </div>
-                                <div className="col-md-4 checkbox-label">
+                                </div> */}
+                                {/* <div className="col-md-4 checkbox-label">
                                     <div className="checkbox-animated">
                                         <input id="checkbox_animated_3" onChange={handleChange} value={"AI & ML Engineering"} type="radio" name='serviceOption' />
                                         <label htmlFor="checkbox_animated_3">
                                             <span className="check"></span>
                                             <span className="box"></span>
-                                            {/* <p className='secondary-text'>Website Development</p> */}
+                                            <p className='secondary-text'>Website Development</p>
                                             <p className='secondary-text'>AI & ML Engineering</p>
                                         </label>
                                     </div>
-                                </div>
+                                </div> */}
                                 <div className="col-md-4 checkbox-label">
                                     <div className="checkbox-animated">
                                         <input id="checkbox_animated_4" onChange={handleChange} value={"Devops & Cloud Engineering"} type="radio" name='serviceOption' />
@@ -673,7 +673,7 @@ function Contact() {
                             <ul className='list-unstyled mb-0'>
                                 <li><Link to="/about" className='text-white text-decoration-none footerhover'>Our Team</Link></li>
                                 <li><Link to="/services" className='text-white text-decoration-none footerhover'>Services</Link></li>
-                                <li><Link to="/ourworks" className='text-white text-decoration-none footerhover'>Our Works</Link></li>
+                                <li><Link to="/ourworks" className='text-white text-decoration-none footerhover'>Industries</Link></li>
                                 <li><Link to="/contact" className='text-white text-decoration-none footerhover'>Contact</Link></li>
                             </ul>
                         </div>
@@ -681,9 +681,9 @@ function Contact() {
                         <div className="col-6 col-md-4 d-flex flex-column">
                             <p className='gold-text-2 fw-bold mb-2'>Our Services</p>
                             <ul className='list-unstyled mb-0'>
-                                <li><Link to="/development" className='text-white text-decoration-none footerhover'>Custom Software Development</Link></li>
-                                <li><Link to="/testing" className='text-white text-decoration-none footerhover'>SaaS Product Development</Link></li>
-                                <li><Link to="/webdevelopment" className='text-white text-decoration-none footerhover'>AI & ML Engineering</Link></li>
+                                <li><Link to="/development" className='text-white text-decoration-none footerhover'>Software Development</Link></li>
+                                {/* <li><Link to="/testing" className='text-white text-decoration-none footerhover'>SaaS Product Development</Link></li> */}
+                                {/* <li><Link to="/webdevelopment" className='text-white text-decoration-none footerhover'>AI & ML Engineering</Link></li> */}
                                 <li><Link to="/digitalmarketing" className='text-white text-decoration-none footerhover'>DevOps & Cloud Engineering</Link></li>
                                 <li><Link to="/micro-services" className='text-white text-decoration-none footerhover'>Microservices Architecture & Engineering</Link></li>
                             </ul>

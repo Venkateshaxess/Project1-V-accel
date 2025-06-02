@@ -27,7 +27,7 @@ const TechStack = () => {
 
   const techStacks = [
     {
-      title: 'Custom Software Development',
+      title: 'Software Development',
       subtitle: 'Revolutionize Your Operations: Transform with Software Tailored to Your Needs.',
       image: 'https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1920',
       categories: [
