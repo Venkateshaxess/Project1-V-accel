@@ -338,7 +338,7 @@ function Footer({ displayContact }) {
                     <form onSubmit={handleSubmit}>
                         <div className="card-body">
                             <p className='text-center text-capitalize bg-img-1'>Request for quote</p>
-                            <p className='text-center text-capitalize fw-semibold primary-text'>discuss your project with us. We are waiting to serve you better.</p>
+                            <p className='text-center text-capitalize fw-semibold primary-text'>discuss your project with us. We are waiting to serve you better</p>
                         </div>
 
                         <div className="row container text-capitalize">
@@ -610,8 +610,8 @@ function Footer({ displayContact }) {
       rel="noopener noreferrer"
       className="text-decoration-none d-flex flex-wrap justify-content-center align-items-center"
     >
-      <span className='gold-text-2 fw-bold me-2'>Visit Us:</span>
-     <span className="text-white">No. 42, Maple Gardens, Khader Nawaz Khan Road, Nungambakkam, Chennai - 600034.</span>
+      {/* <span className='gold-text-2 fw-bold me-2'>Visit Us:</span>
+     <span className="text-white">No. 42, Maple Gardens, Khader Nawaz Khan Road, Nungambakkam, Chennai - 600034.</span> */}
 
     </a>
   </div>

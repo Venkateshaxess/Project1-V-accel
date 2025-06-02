@@ -197,7 +197,7 @@ As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has 
           <h5 className="secondary-header text-center py-5" data-aos="fade-up" data-aos-duration="1000">
             Let's talk about your digital aspirations. Whether you're a budding
             startup or a seasoned enterprise, Devnio has the tools and vision to
-            help you soar.
+            help you soar
           </h5>
         </div>
         <div className="row mt-3">
@@ -209,7 +209,7 @@ As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has 
           <div className="col-md-6 pt-4" data-aos="fade-left" data-aos-duration="1000">
             <div className="mt-3">
               <h6 className="secondary-header">
-              Today, he champions innovation in:
+              {/* Today, he champions innovation in: */}
               </h6>
             </div>
             <div className="aboutpoints mt-3 pt-3">
@@ -242,52 +242,39 @@ As a Full-Stack Software Engineer (MERN) and a QA Automation Specialist, he has 
       </div>
       <section className="bg-green-1 py-5 mt-5">
         <div className="container" data-aos="fade-up" data-aos-duration="1000">
-          <h3 className="secondary-header mx-auto text-center text-white mb-2">
+          {/* <h3 className="secondary-header mx-auto text-center text-white mb-2">
             <q>
             At Devnio, he’s not just a founder — he's the lead problem-solver, code architect, and mentor behind every successful delivery.
             </q>
-          </h3>
+          </h3> */}
           <p className="col-md-8 fs-5 mx-auto text-center text-white mt-4">
             Ready to weave your digital success story? Let's connect!{" "}
           </p>
 
         </div>
 
-        <div className="row  py-3" data-aos="fade-up" data-aos-duration="600">
-          {/* <div className="col-md-6 pt-2 d-flex justify-content-center ">
-            <div className="text-center">
-              <p className="secondary-text text-white"> Follow us on social media for digital insights and inspiration.</p>
-              <div className=" d-flex justify-content-center align-items-center">
-                <Link to={'https://www.facebook.com/profile.php?id=61556380648787'} target="_blank">
-                  <i className="bi bi-facebook text-primary fs-4 mx-3"></i>
-                </Link>
-                <Link to={'https://www.instagram.com/axesstech/'} target="_blank">
-                  <i className="bi bi-instagram text-danger fs-4 mx-3"></i>
-                </Link>
-                <Link>
-                  <i className="bi bi-whatsapp text-success fs-4 mx-3"></i>
-                </Link>
-              </div>
-            </div>
-          </div> */}
-          <div className="col-md-6 py-2 text-center">
-            <p className="secondary-text text-white">
-              Schedule a free consultation to discuss your unique needs.{" "}
-            </p>
-            <Link to={"/contact"} className="text-decoration-none">
-              <button
-                className="gold-btn mx-auto"
-                data-aos="zoom-out"
-                data-aos-duration="300"
-              >
-                <span className="d-block">Connect with us</span>{" "}
-                <i className="bi bi-arrow-right"></i>
-              </button>
-            </Link>
+        <div
+  className="row py-3 d-flex justify-content-center align-items-center"
+  data-aos="fade-up"
+  data-aos-duration="600"
+>
+  <div className="col-md-6 py-2 text-center">
+    <p className="secondary-text text-white">
+      Schedule a free consultation to discuss your unique needs.
+    </p>
+    <Link to={"/contact"} className="text-decoration-none">
+      <button
+        className="gold-btn mx-auto"
+        data-aos="zoom-out"
+        data-aos-duration="300"
+      >
+        <span className="d-block">Connect with us</span>{" "}
+        <i className="bi bi-arrow-right"></i>
+      </button>
+    </Link>
+  </div>
+</div>
 
-          </div>
-
-        </div>
 
 
 

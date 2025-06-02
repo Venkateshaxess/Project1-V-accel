@@ -228,7 +228,7 @@ function Contact() {
             <div className='hero-banner hero-2 mt-5' data-aos='fade'>
                 <div className='container text-center green-text'>
                     <p className="bg-img-2 mb-5 mx-auto" data-aos='fade-up' data-aos-duration='400'>Talk to a Human</p>
-                    <h1 className={`secondary-header mb-3`} data-aos='fade-up' data-aos-duration='600'>We check our emails everyday and reply even if we are at dinner. You are not going to hit a ridiculously long phone menu when you call us.</h1>
+                    <h1 className={`secondary-header mb-3`} data-aos='fade-up' data-aos-duration='600'>We check our emails everyday and reply even if we are at dinner. You are not going to hit a ridiculously long phone menu when you call us</h1>
                     {/* <p className='mb-0 secondary-text mb-3' data-aos='fade-up' data-aos-duration='700'>{h3}</p> */}
                     {/* {isContactPage ? null : (
                          <Link to={"/contact"} className='text-decoration-none'>
@@ -243,9 +243,9 @@ function Contact() {
                 <div className='card mt-4'>
                     <div className="card-body">
                         <p className='text-center text-capitalize bg-img-1'>For Urgent Queries</p>
-                        <p className='text-center text-capitalize fw-semibold primary-text'>Call or Whatsapp Us.</p>
+                        <p className='text-center text-capitalize fw-semibold primary-text'>email us at: <a href="mailto:1aQ3N@example.com" className="text-decoration-none">devnivo@gmail.in</a></p>
                         {/* Call and WhatsApp Buttons */}
-                        <div className="d-flex justify-content-center gap-3 mt-3 flex-wrap">
+                        {/* <div className="d-flex justify-content-center gap-3 mt-3 flex-wrap">
                             <a href="tel:+918754453361" className="btn btn-primary">
                                 📞 Call Now
                             </a>
@@ -257,7 +257,7 @@ function Contact() {
                             >
                                 💬 WhatsApp
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -266,7 +266,7 @@ function Contact() {
                     <form onSubmit={handleSubmit}>
                         <div className="card-body">
                             <p className='text-center text-capitalize bg-img-1'>Request for quote</p>
-                            <p className='text-center text-capitalize fw-semibold primary-text'>discuss your project with us. We are waiting to serve you better.</p>
+                            <p className='text-center text-capitalize fw-semibold primary-text'>discuss your project with us. We are waiting to serve you better</p>
                         </div>
 
                         <div className="row container text-capitalize">
@@ -705,8 +705,8 @@ function Contact() {
       rel="noopener noreferrer"
       className="text-decoration-none d-flex flex-wrap justify-content-center align-items-center"
     >
-      <span className='gold-text-2 fw-bold me-2'>Visit Us:</span>
-     <span className="text-white">No. 42, Maple Gardens, Khader Nawaz Khan Road, Nungambakkam, Chennai - 600034.</span>
+      {/* <span className='gold-text-2 fw-bold me-2'>Visit Us:</span>
+     <span className="text-white">No. 42, Maple Gardens, Khader Nawaz Khan Road, Nungambakkam, Chennai - 600034.</span> */}
 
     </a>
   </div>
